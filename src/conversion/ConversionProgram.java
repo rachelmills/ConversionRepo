@@ -10,13 +10,13 @@ import exceptions.InvalidFormatException;
  */
 public class ConversionProgram {
     
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         
         CurrencyHelper currencyHelper = new CurrencyHelper();
         Conversion conversion = new Conversion();
        
         String outputLine = "";
-        String fileName = "";
+        String fileName;// = "";
        
         double conversionValue;
        

@@ -21,7 +21,7 @@ public class Conversion {
     private final static int GLOB_PROK = 3;
     private final static int GLOB_PISH = 8;
     
-    public double calculateValue(String metal, List<String> symbols) throws Exception {
+    public double calculateValue(String metal, List<String> symbols) throws InvalidFormatException {
         
         double runningTotal = 0;
         int countGlob = 0;
