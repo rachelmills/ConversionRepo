@@ -34,7 +34,7 @@ public class CurrencyHelper {
         return metal;
     }
 
-    public List extractSymbols(List<String> line2, String metal) {
+    public List<String> extractSymbols(List<String> line2, String metal) {
         
         if (!metal.isEmpty()) {
             line2.remove(metal);
