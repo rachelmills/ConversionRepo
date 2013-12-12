@@ -86,7 +86,7 @@ public class CurrencyHelper {
         }
         
         if (metal.isEmpty()) {
-            outputLine = symbols + " is " + conversionValue;
+            outputLine = symbols + " is " + conversionValue + " Credits";
         } else {
             outputLine = symbols + " " + metal + " is " + conversionValue + " Credits";
         }
